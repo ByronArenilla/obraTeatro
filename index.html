@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeTeatro</title>
+    <!--prefetch-->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!--preload--> 
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="https://fonts.google.com/share?selection.family=Open%20Sans%7CPT%20Sans:wght@400;700" 
+    crossorigin="crossorigin" as="font">
+    <link rel="preload" href="img/nuestraObra.webp" as="image">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Open%20Sans%7CPT%20Sans:wght@400;700">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo"href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">De<span 
+                    class="logo__bold">Teatro</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html"class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html"class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Improvisando bajo la nieve</h2>
+            <p class="no-margin">Un Viaje de Amor y Esperanza</p>
+            <!-- Botón de Reserva debajo del texto "Un Viaje de Amor y Esperanza" -->
+        <a href="https://forms.gle/6kQJFJekeH3e3Mhd7" target="_blank" class="boton boton--reserva">Reserva tu entrada</a>
+        </div>
+
+    </header>
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Obra</h3>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/nuestraObra.webp" type="image/webp" loading="lazy" >
+                        <img  id="tamaño" class="img/blog1.jpg" alt="Imagen bloc" loading="lazy">
+                    </picture>
+                    
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">¿Qué es improvisando bajo la nieve?</h4>
+                    <p>"Improvisando bajo la nieve" es una encantadora obra de teatro cristiana que invita al público a sumergirse en la alegría y la reflexión de la Navidad. A través de las cómicas e inspiradoras aventuras de Jack, exploramos temas como el amor, la esperanza y la importancia de los sueños en nuestra vida cotidiana. La historia comienza con Jack recibiendo un misterioso periódico en blanco, lo que desencadena una serie de imaginativas escenas que van desde graduaciones y casinos hasta bodas y reflexiones personales. Todo esto mientras se desarrolla una conmovedora narrativa navideña que destaca el verdadero espíritu de la temporada.</p>
+                    <a href="entrada1.html" class="boton boton--primario">Quiero saber más de la obra</a>
+                </div>
+            </article>
+
+        </main>
+        <aside class="sidebar">
+            <h3>Información de la obra</h3>
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Improvisando bajo la nieve</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$ 10.000 </span>
+                    </p>
+                    <p class="widget-curso__label">Fecha:
+                        <span class="widget-curso__info">8 de Diciembre de 2024</span>
+                    </p>
+                    <p class="widget-curso__label">Lugar :
+                        <span class="widget-curso__info">Iglesia Centro Familiar vida y Esperanza sector pilarica</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">Debido a la capacidad de la Iglesia, el evento 'Improvisando bajo la nieve' tiene un cupo máximo de 90 personas. ¡Asegura tu lugar cuanto antes y no te pierdas esta maravillosa celebración navideña! Reserva tus entradas ya y sé parte de esta experiencia única.</span>
+                    </p>
+                    
+                    <a href="https://forms.gle/6kQJFJekeH3e3Mhd7" class="boton boton--secundario">Reservar entrada</a>
+                </li>
+
+            </ul>
+
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo"href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">De<span 
+                    class="logo__bold">Teatro</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html"class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html"class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
